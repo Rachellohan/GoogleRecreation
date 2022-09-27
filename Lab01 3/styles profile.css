@@ -1,0 +1,194 @@
+/* YOUR STYLES HERE */
+
+*{
+    color: aliceblue;
+    padding: 0;
+    margin: 0;
+    background-color:black;
+   
+}
+
+#backs{
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+#profile-pic{
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+}
+
+#profile-pic:hover{
+    box-shadow: 0px 0px 5px #c2c2c2;  
+}
+
+#powerlifting{
+    margin-right: 77%;
+}
+
+#return{
+    text-decoration: none;
+    margin-right:auto;
+    color: aliceblue;
+}
+
+#return:hover{
+    text-decoration: underline;
+}
+
+#logo{
+    width: 272px;
+    border-radius: 40px ;
+    width: 30%;   
+    margin: 30px;
+}
+
+#logo:hover{
+    box-shadow:0px 0px 8px whitesmoke;
+}
+
+#top-stuff{
+    
+    color: black; 
+    text-decoration: none;
+    font-family: Times;
+    margin:8px;
+    
+    cursor: pointer;
+    align-items: center;
+    background-color: black;
+    border: 1px solid #4b4b4b;
+    border-radius:4px;
+    font-size: 28px;
+
+}
+
+#top-stuff:hover{
+    box-shadow: 0px 0px 5px whitesmoke;
+    text-decoration: underline;
+}
+
+ 
+
+#search2{
+
+    text-align: center;
+
+}
+
+#blurb{
+    color: aliceblue;
+    font-size: large;
+    text-align: center;
+    outline-style: double;
+    outline-width: 10px;
+    outline-color: #333;
+}
+
+#tables{
+    display:block;
+    
+ }
+
+
+table, th, td {
+    position: relative;
+    border: 1px solid black;
+    border-color: purple;
+    margin-top: 125px;
+    background-color: rgb(61, 125, 213);
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+  }
+table, th, td:hover {
+    box-shadow: 0px 0px 8px whitesmoke;
+}
+#lifter{
+    display: block;
+    width: 272px;
+    border-radius: 40px ;
+    width: 30%;   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    
+}
+
+#lifter:hover{
+    box-shadow: 0px 0px 8px whitesmoke;
+}
+
+#lifta{
+    display: flexbox;
+    width: 272px;
+    border-radius: 40px ;
+    width: 30%;  
+    margin-top: 100px;
+    top: 0;
+    margin-right: auto;
+    margin-right:10px;
+    
+}
+
+
+#lifta:hover{
+    box-shadow: 0px 0px 8px whitesmoke;
+}
+
+#lifty{
+    display: flexbox;
+    width: 232px;
+    border-radius: 80px ;
+    width: 30%;      
+    margin-left: auto;
+    margin-left: 460px;
+}
+
+#lifty:hover{
+    box-shadow: 0px 0px 8px whitesmoke;
+}
+
+.bottomMenu {
+    background-color:black;
+    bottom: 0;
+    margin-top: 30px;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    color: rgb(6, 6, 6);
+    text-shadow: 2px 2px 5px grey;
+      
+    font-size: 26px;
+}
+  
+
+  
+#bottomMenu:hover{
+    text-decoration: underline;
+    box-shadow: 0px 0px 5px whitesmoke;  
+}
+  
+
+  
+.text {
+    padding: 16px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 26px;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px red;
+}
+.text:hover{
+    text-decoration-thickness: bold;
+    box-shadow: 0px 0px 5px whitesmoke;
+}
+
